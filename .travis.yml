@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 0.6
+branches:
+  except:
+    - gh-pages
+before_script:
+  - npm install recess connect uglify-js jshint -g
+  - make default
