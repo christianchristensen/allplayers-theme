@@ -16,3 +16,4 @@ default:
 	# TODO: cd vendor/bootstrap/bootstrap; git add .; git commit $DATEBUILD
 
 .DEFAULT_GOAL := default
+.PHONY: test
