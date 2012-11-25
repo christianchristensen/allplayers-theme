@@ -19,7 +19,7 @@ index 439f7ff..5a5a499 100644
 \ No newline at end of file
 +.PHONY: docs watch gh-pages bootstrap
 diff --git a/less/bootstrap.less b/less/bootstrap.less
-index 14bb3f0..6858a9e 100644
+index 14bb3f0..83cfd7a 100644
 --- a/less/bootstrap.less
 +++ b/less/bootstrap.less
 @@ -15,6 +15,9 @@
@@ -32,6 +32,13 @@ index 14bb3f0..6858a9e 100644
  // Grid system and page structure
  @import "scaffolding.less";
  @import "grid.less";
+@@ -61,3 +64,6 @@
+ 
+ // Utility classes
+ @import "utilities.less"; // Has to be last to override when necessary
++
++// Custom Addons (for CSS overrides)
++@import "../../../allplayers.less";
 diff --git a/less/responsive.less b/less/responsive.less
 index aa28baa..159b426 100644
 --- a/less/responsive.less
