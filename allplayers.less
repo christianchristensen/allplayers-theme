@@ -1,11 +1,26 @@
 // TYPOGRAPHY
 // -----------------------------------------------------
+@headingsFontFamily:    "PT Sans Narrow", Arial, Helvetica, sans-serif;
+@headingsFontWeight:    bold;    // instead of browser default, bold
 
 // SCAFFOLDING
 // -----------------------------------------------------
+@linkColor:             #aba01a;
+@linkColorHover:        #958e2d;
 
 // NAVBAR
 // -----------------------------------------------------
+@navbarHeight:                    30px;
+@navbarBackgroundHighlight:       #2c7892;
+@navbarBackground:                #1a4958;
+
+@navbarText:                      #fff;
+@navbarLinkColor:                 #fff;
+@navbarLinkColorHover:            darken(@navbarText, 15%);
+@navbarLinkColorActive:           darken(@navbarLinkColor, 15%);
+
+@navbarLinkBackgroundHover:       transparent;
+@navbarLinkBackgroundActive:      lighten(#1a4958, 5%);
 
 // NAV
 // -----------------------------------------------------
@@ -30,3 +45,100 @@
 
 // MEDIA QUERIES
 // -----------------------------------------------------
+
+
+// CSS SPECIFIC (Legacy) OVERRIDES
+// -----------------------------------------------------
+
+h1 {
+  border-bottom: 1px dashed #cccccc;
+  color: #9b243e;
+  font-family: 'PT Sans Narrow',Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin-bottom: .5em;
+  padding-top: .3em;
+}
+
+h2 {
+  color: #2c7892;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin-top: 20px;
+}
+
+h4 {
+  color: #666666;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+.navbar .nav {
+  margin: 0;
+}
+
+.navbar .brand {
+  padding: 0px;
+}
+
+code {
+  color: #52595D;
+}
+
+.alert-block {
+  margin-top: 50px;
+}
+
+.alert code {
+  background-color: #FBEED5;
+}
+
+/*------------------------------------------------------------------------------
+     Custom styles
+------------------------------------------------------------------------------*/
+
+
+.sidebar-module {
+  border: 5px solid #EFEDEA;
+  color: #555555;
+  font-size: .9em;
+  line-height: 1.2em;
+  margin-top: 30px;
+  padding: 10px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+}
+
+.sidebar-nav {
+  padding: 0;
+}
+
+.sidebar-nav ul.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-nav ul.nav-list li {
+  border-bottom: 1px solid #EFEDEA;
+  line-height: 40px;
+  margin-left: -30px;
+}
+
+.sidebar-nav ul.nav-list li:last-child {
+  border-bottom: 0;
+}
+
+.sidebar-nav ul.nav-list li a {
+  color: #2c7892;
+  font-size: 1em !important;
+  font-weight: normal;
+  padding-left: 30px;
+}
+
+.beta {
+  color: #f89406;
+}
