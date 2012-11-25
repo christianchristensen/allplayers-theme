@@ -5,7 +5,22 @@
 ### Building
 
 `make default`
+
 See http://stackoverflow.com/questions/10451317/twitter-bootstrap-customization-best-practices
+
+### Notes
+
+Encrypt (in 'chunks') a private key for deployment through travisci env vars:
+
+```sh
+export i=0
+cat id_rsa | grep -v "\-\-\-\-" | while read line
+  do
+    echo "IDRSA_PRIV_ENV$i"
+    travis encrypt AllPlayers/allplayers-theme IDRSA_PRIV_ENV$i=$line | grep "secure:"
+    i=$((i+1))
+  done
+```
 
 
 ### Attribution

@@ -4,6 +4,36 @@ node_js:
 branches:
   except:
     - gh-pages
+env:
+  global:
+    - secure: "Y4EroF81FDJwfzmETZlaIZHPt+NSZUFWvZYe2F65EEMzqZhdm765jEROO91W\nKAYBcTbE9O6r5g3V/zqX7c+tyLpC5mRGnPGthJp666nWJQmoknjT6BcqI2jT\necMb/W0UWc/sr8tTsu445EWqmWoNOqnH7pMfDhP0QalOcIx3wnA="
+    - secure: "UsJc+c2ySjm2hOEdIuqkIOYAaUOfA/8fu/h57oW29ePdCq99DiorzysJAzva\nDYw/GN6Glvg1bU7FCnKMtc+edpPNvadTlnKKK5EWuA+jPBkS4wbtWvn9igrI\nmMg/cb8NVS8Rpr6b/UjlhPLusbWQPjyL+Yk8kxV8OFfoMmJfkBw="
+    - secure: "nvEdwh52vt0EM5cdt7O2eP2RXNpbJvjH03lDRHkHr5iodJehSDXi4L3h1DCf\ndnKuRMtDzH7p4L46+0OlS7smHk2JiiJbunecNCN2hrCIQEUozanF76TI+GR5\n0iTkeQFEhL52ceFJs/aQqQaMyYe2QDd2wd077UkFy9nriNKAkUs="
+    - secure: "WSK/5/YL8sFac4NOHnb8CXe0tlJzCle6stfd6hJF7dDicdhRKaJQ+89jIBwR\n1ZUnd+N6peSsZA7rR+JsVtr+YjiVUDHXz7PyGwGC+kkC/J1tPatu/NvEl/VL\nKenlJFzl6SqXDjkfNsJ+gSwQIBhsULj5W/r+AxhB//zH34S1Csc="
+    - secure: "WM27lDyK3M7RnVE23O/171+e0+kI5NnRQmH2spNMRb9tTXHES1tkaugl7/P6\nYG+CYqLunY0nltNfeNFoJReRA3pJdssRbl1hRTEis0nMY62LNVmteGI/ktE1\nIinkDUt/7aSpcGKV7NxwmXYhpZuZYGIRCyXY7jisujZM0tH7rME="
+    - secure: "f7JYpcqKyxWlj9YKSuXhEF3525fEddrGO14+MY7j8O904PNtzE3756UiLNoz\ncUvjG1+BhaNcVl6ZZxbRQE6F5oQpzxNUAeAX2vgxlLEMbsNQ6Gm3/U3k2/q5\niU6HAmJaWw696AtvApPLn6vs4eDV9vFUm+pWG+3lqXyBD4hcphg="
+    - secure: "YQOmLXUJ/6ZPqMej0U5WoDfsdwbpqlmhJ/ssMJ4W3dZBelirCT4SvtMktFBR\nb9FwxFru3yq30YDJki0ahooYc//BhnMs59nsUUiLfYqV1BMI+ZN8Es+pbKfA\n1oNzeNVMF2h7u+UaUhjGBIb1ldE1Ira3xQdhLED8dJdmcoR0aok="
+    - secure: "qHpIxx2VE1ZAuQqxQYDvJpw6Qbw4N+Nc0XyuQWjKN7uMQ/y8lcpjP/jwOHz8\nRtMoB+HyJZ++z9Qny4L+c/4fExPIhhcbRXBWQwrFBAmPgorf7P0vEskUIetS\nRyIoGsnp7C8QIEEh8k5VruURN+iK+LofF2kGhSuijIJGibthzIs="
+    - secure: "LOqaY1kqwpT8I3+/H2iS9zndHDbQVv6E8jkSyDZd2KP9zn9G0HuDFo7nwKl7\nFfVMAdT1Hwa06k/pou8TgB0d1k7uDm4ZtwuuIyY/uxJqfIKnG9VfYhOzOCAN\nj8xe3AO7Q/g2aj9ii00YsujqOwGga2y2hBMKOWnkqN0wn6gHr90="
+    - secure: "lxoXwAyv+Xgcx729OGBydTl05DwU399Vsmy8cq9BtsejPkpuZgCWCMPFeeKI\nT29d1cBycLb1kWUgPSXDBt+e/8Hlu60IF2laIfI+NK/EnObwbgQ6djSn6+XR\nZO9/d0SiCqctF3LB0fTJabYdc3S9gm39JXBNL20UGhx27LzB6Gg="
+    - secure: "WJ4kDa1kkAmnst9j5yC1e9QJouVeJevb/Ay8nD1VY54oHkzOQVppdSAo8/hO\n6KqjHUk8k7qYxuufozAvAgFebNP8TNPCbKKFKHtgUH3N1q1X++Aj/Y/y6Wwo\n4+sN2i7+7pj4dQ4Gm55AZRpDT1MB3dVRZFMQkAJs6Hqyd3OmWds="
+    - secure: "FF3rSzgBd9As1XFU9rARkwvBV4uO3fRrJe3eEXlnRsrwRiKHemBQrkWd57VO\nNECSeqzAX5AgyaUEvMIVkjROyVf6SC1EE3Oh84Ozw3RfEZTvHe6FCsVdN+I6\n30nXArxLUMzcOxwzI9zR0dLEiT+bDzqtbNsH4UNACIOQdANdJLQ="
+    - secure: "o/3c9jF0VcOYrdwpD1t5u+nLNdUxPbw5YaMP/9iMJu9b49xI10gC5ykatVSP\nv3yIeD42UVdgTWULt2qoZ5SES+GAFeEo9+B7qMGaCMhmFFg6ske6hNfEv8lt\njcQvjItTciq2kZhnb0VhN13y4kzOW7Yc5BhHEiPhElrchVaVRqU="
+    - secure: "EPd8Is84wfR4PAdovlkl+bDO5nwin2W5YFx1/jjALPeT4xzTOQYAnHtgPTxw\n46lpOYSNDT3TUIQ+CepS3nGH/3kX8Fba/6o0e1lD7T+rWlEAXzJh4HvBemxw\nrwRNEv0RYeuvbNEIlv71e8fIHb+7V9PrGM3KdjV7J8ugW4Bb2Ys="
+    - secure: "bq3SR02wR1ls9+2g8/gDPxIy9TYUHxD8FLre+E5YKKBBuud+TKWrcZBxrii3\nqpCJmrTshlivFhj+cRPS9I3ZJS8E6drKBg/x1KhhCYdR5BA0mrCd1S1r8l+w\n/BxLuyBsws+0H32P5eDADUQ8G/arqiFatFOGXbbqjvL1cC6gc58="
+    - secure: "FX2FlvFiXSrTjHlBTpoIF3By7+gLQNyOTabP1uj2QY2EHqnGg64NjZ5tfXQs\n8lN6odsKecoi4HWDnqvvmmZNL4+yrotZ7gLwEH0cNxXhlooj1Egwpmdi+mZF\n+Jz3/M9P3ijUBkxNVnqWevDr7nm8lWH57tgwBFPYjKCJmSyt6vM="
+    - secure: "f8Y6haMassDD0MLYoC7W3tGa+ML8sRwWRPQmKmGNEjqYn+x3uH0750YANJLL\nZQmKFiRTJCHNo2PbjRhWoelz4SKieX66MZGnM4eUyRFGi26fZk2sUl8pT68s\nulntKG0rQTuyA8iz7qrBL0dl74yVc1mMuU08o3JstL+PJ8lX2dU="
+    - secure: "HXiyi0+mKiR0q4b2QGiYMHB1lGwgOSG2q7UOIfC28yV8DjrtTZ6b+0uluItD\n5W6nA1mr8tQAn3rXP+nbgGs9/nstE3WK1PZpmuA+RpX/X3FhKQ3eDyE3B8MZ\nOzC3jk+gMDV7xO4LHQEIo9fkoNE8qn4ehkvqVr0hc1MtuPQxD84="
+    - secure: "nOcRbBtKR31X8wNlAxoAzRxjsdQ4QR+TgiFzoYeb94EHpclf2m5tA9Yr817h\nshfL/MsKub2smwUpY1VqsLgwp+sAs1hWoxbCyc+Czzt55F7j8KXxCLd+3pNq\n3X0rovIrZvlrfWbNtQxhysfsn22CXm8sjum0M4DhZlNdqeD/43E="
+    - secure: "Om9ej7zMTBRgUayFob8x0DMR9bVAmNoG+hdXljSdEeko8n91Ctc5yRDBzRMk\ndZfOoaU0mMflRXxo0/laGaXdZUmwBJEScFIfwgWRet430TpwEXdBvI7MuAvr\n9n9XOehlUVeqLJ53iBUL6LkA6IZ0YesEeohwrgZ5RfV87y0bV0U="
+    - secure: "qG3gt9lcBxvEye8eTaJLfu20qRMBkC4RKK4sxvJFVDwL1NtsvzG/xM+p8RW0\nAKoMDSzxAyMO6mD01nWl24p8LzASvjrIkP2dTyZ/jGiq8qGC9ghxzC6rqCw3\nM6PnwxVCB+/Nc3dQPk84ML8XDX4TrG4AQIVGJi8vesLHaJIhItw="
+    - secure: "ZIQJvswHr+I36oVCFBqxygKyesSk7guD+iFfrkr4WpKCu67kMaKmtoZATQe3\n4BFz1lduyJ+qPftkFSq5HtbJjmIjvQkqv3LAmALcAOp6KYN7Y308aNstoW3r\nOoQpp2dm8Oa9XVFWqg3BuPPA6fhGTk5ouOevU/HpCSoVoq8py5k="
+    - secure: "OzUcO17v0ZaFzPZ49lmYPdwBypa3FoRCClgG3wWTciscV5D5qjNkOpMUfv/5\nl4Mpuf4e2nPOrH4mB7ak7lQC4G6soM2Mza6VGJ043Phxioxj9WVQX3bEx/hB\n/BkeizFTPU9Y0P7JewQxJa1yHyLfFeFBKham/88nJTiARbN9FuQ="
+    - secure: "PBMZH5t8KS2C3mm57OZwZvSK0+Led20Lfn+3Op5hzDIs8K7/qAtSiLctg8+g\nzy93ZOoN5bXdxPzOM9H9Y2CVj/HqS885y2MDAkTPVsOv+ukh86A+VRcMnF3/\nuB7aDG3iHvYP5q1W8vcsvqk2qGPoWPPXCzkbVlEd+rpe1vQhy3k="
+    - secure: "FaB81gfS+vCM+7Ce/A+WdbLMULq3U8qsrnMzw/BGBxECNoqWWoXMuE4z3ZE5\n4ozju0KurFVW59pHxBl6kk3J1lS5Lu8oUM9RYzU2rUP07f1I3YiVRiW1kBgF\nvm4QOpLgQlwlbB1o3QX7CoGAyO3uumdWNNLpikNCuhMly06794g="
 before_script:
   - npm install recess connect uglify-js jshint -g
+script:
   - make default
+after_script:
+  - if [ $TRAVIS_SECURE_ENV_VARS == true ]; then make commitpages; fi
